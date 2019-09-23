@@ -1,0 +1,55 @@
+html,body {
+  background-color:#787878;
+  color: #ff6347;
+  font-family: 'Merriweather', serif;
+}
+
+section#centered, #centered {
+  width: 600px;
+  margin: 0 auto;
+  margin: 10px;
+  border: 3px solid #ff6347;
+  display:inline-grid;
+  text-align: center;
+}
+
+#email {
+    text-decoration: none;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+ol {
+  list-style: inside;
+}
+
+a,a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    background-color:green;
+    color: #ff6347;
+}
+
+/* love */
+a:link, a:visited {
+
+}
+
+/* hate */
+a:hover, a:active {
+
+}
+
+section#contact_info h3 {
+    color: darkgreen;
+    font-size:
+}
