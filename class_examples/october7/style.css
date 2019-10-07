@@ -1,0 +1,26 @@
+nav a {
+  display: inline-block;
+}
+
+
+.grid-1-container {
+  display: grid;
+  grid-template-areas:
+    "shiba-heading ."
+    "shiba-pic shiba-info";
+    grid-gap: 40px;
+    max-width: 630px;
+    margin: 0 auto;
+}
+
+.shiba {
+  grid-area: shiba-heading;
+}
+
+.grid-1-picture {
+  grid-area: shiba-pic;
+  height: 200px
+}
+.graf {
+  grid-area: shiba-info;
+}
