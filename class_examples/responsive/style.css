@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* general things */
+
+html {
+    font-size: 21px;
+    line-height: 1.75;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* font-weight: 300; */
+}
+
+p {
+    margin-bottom: 2em;
+}
+
+/* header things */
+header {
+
+}
+
+/* main things */
+main {
+
+}
+
+
+/* footer things */
+
+footer {
+    background-color: lightgrey;
+    padding: 1rem 2rem;
+    border-top: 0.5rem solid gold;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}

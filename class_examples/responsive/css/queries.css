@@ -1,0 +1,11 @@
+@media only screen and (max-width: 800px) {
+    body {
+        color: blue;
+    }
+}
+
+@media print only {
+    body {
+        color: red;
+    }
+}
