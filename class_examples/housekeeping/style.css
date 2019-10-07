@@ -1,0 +1,38 @@
+#thisParagraphRocks {
+    font-family: monospace;
+}
+
+.some_paragraph {
+    background-color: red;
+    font-size: 40px;
+}
+
+.dominguez {
+    color: white;
+    font-weight: 900;
+}
+
+table {
+    margin-bottom: 100px;
+}
+
+img#headshot {
+    height: 300px;
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 5px;
+}
