@@ -74,6 +74,7 @@ h1.title{
 /*Banner Image*/
 .banner_image{
   background-image: url("images/rookies.jpg");
+  background-color: #EC7063;
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -140,15 +141,15 @@ h1.title{
 .diff_futures{
   display:flex;
   margin-top: 35px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .diff_future_item{
-  width: 60%;
+  width: 30%;
 }
 
 .diff_future_item {
-  width: 200%;
+  width: 100%;
   margin-bottom: 25px;
 }
 
