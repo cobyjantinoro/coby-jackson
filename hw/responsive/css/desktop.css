@@ -74,7 +74,6 @@ h1.title{
 /*Banner Image*/
 .banner_image{
   background-image: url("images/rookies.jpg");
-  background-color: #EC7063;
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -100,7 +99,7 @@ h1.title{
   color: #EC7063;
 }
 
-/* about us section */
+/* about, athletes,futures, and sections */
 .about,
 .athletes,
 .futures,
