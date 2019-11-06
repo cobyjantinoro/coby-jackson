@@ -32,7 +32,8 @@ br {
   color: rgb(10, 10, 10);
 }
 
-.image {
+.image,
+.image2 {
   height: 300px;
   width: 500px;
   text-align: center;
