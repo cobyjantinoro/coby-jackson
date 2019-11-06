@@ -1,0 +1,94 @@
+html {
+  background-color: #c60c30;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h1,
+h2 {
+  font-family: "Merriweather", serif;
+  text-align: center;
+}
+
+p {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+br {
+  color: rgb(10, 10, 10);
+}
+
+.image {
+  height: 300px;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+}
+
+.imgPart {
+  height: 400px;
+  width: 500px;
+}
+
+button {
+  width: 200px;
+  background-color: rgb(22, 54, 135);
+  color: white;
+  height: 60px;
+  font-size: 20px;
+  font-family: "Merriweather", serif;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+  align-content: center;
+  grid-row-gap: 20px;
+}
+
+#learnButton {
+  height: auto;
+  width: auto;
+}
+
+.bjarke-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+ul {
+  margin: 0 auto;
+  width: 10vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+ul,
+li {
+  text-transform: uppercase;
+  color: #0a0a0a;
+  margin-bottom: 5px;
+}
+
+ul,
+li,
+a {
+  color: white;
+}
