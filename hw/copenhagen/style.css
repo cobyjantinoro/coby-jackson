@@ -62,6 +62,12 @@ button {
   grid-row-gap: 20px;
 }
 
+.card-img-top,
+.img-fluid {
+  width: 500px;
+  height: 200px;
+}
+
 #learnButton {
   height: auto;
   width: auto;

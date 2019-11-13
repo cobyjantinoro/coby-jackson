@@ -5,36 +5,59 @@
     <title>Visiting Copenhagen</title>
     <link rel="stylesheet" href="style.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
   </head>
 
   <body>
+    <header>
+      <h1><i>Visit Copenhagen</i></h1>
+      <a data-fancybox="gallery" href="images/bjarkeingles.jpg"><img src="images/bjarkeingles.jpg" alt="picture of Bjarke Ingels in Copenhagen." width="500">
+      </a>
 
-    <h1><i>Visit Copenhagen</i></h1>
 
-    <img src="images/bjarkeingles.jpg" alt="picture of Bjarke Ingels in Copenhagen." width="500">
+      <br>
 
-    <br>
 
-    <button type="button" id="logicButton">Introduction</button>
-    <section id="visible">
-      <p>Copenhagen, the capital of Denmark, is the largest city within the country and it's residents have been ranked as the happiest people in the world. The city is a very modern, hip, eco-friendly city that is known for it's fantastic Nordic
-        cuisine, Renaissance castles, eco-friendly innovative architecture, and bike-friendly culture. I was fortunate enough to visit Copenhagen over the summer of 2016, and these are are few of my favorite tourist destinations in the city.</p>
-      <hr>
-      <h2>Table of Contents</h2>
-      <ul>
-        <li><a href="#nyhavn">Nyhavn</a></li>
-        <li><a href="#tivoli">Tivoli Gardens</a></li>
-        <li><a href="#mermaid">The Little Mermaid</a></li>
-        <li><a href="#church">Church of our Saviour</a></li>
-        <li><a href="#stroget">Strøget</a></li>
-        <li><a href="#bjarke">Bjarke Ingles</a></li>
-      </ul>
-    </section>
+      <button type="button" id="logicButton">Introduction</button>
+      <section id="visible">
+        <p>Copenhagen, the capital of Denmark, is the largest city within the country and it's residents have been ranked as the happiest people in the world. The city is a very modern, hip, eco-friendly city that is known for it's fantastic Nordic
+          cuisine, Renaissance castles, eco-friendly innovative architecture, and bike-friendly culture. I was fortunate enough to visit Copenhagen over the summer of 2016, and these are are few of my favorite tourist destinations in the city.</p>
+        <hr>
+        <h2>Table of Contents</h2>
+        <ul>
+          <li><a href="#nyhavn">Nyhavn</a></li>
+          <li><a href="#tivoli">Tivoli Gardens</a></li>
+          <li><a href="#mermaid">The Little Mermaid</a></li>
+          <li><a href="#church">Church of our Saviour</a></li>
+          <li><a href="#stroget">Strøget</a></li>
+          <li><a href="#bjarke">Bjarke Ingles</a></li>
+        </ul>
+      </section>
+
+    </header>
 
     <hr>
 
     <h2><u>What To Do In Copenhagen</u></h2>
+
+    <div class="card-deck mb-sm-4 video-deck">
+      <div class="card">
+        <div class="card-body">
+          <p class="card-text">
+            Click On The Flag To See Copenhagen!
+          </p>
+        </div>
+        <a data-fancybox="copenhagenvid" data-width="640" data-height="360" href="video/copenhagenvid.mp4">
+          <img class="card-img-top img-fluid" src="video/copenhagenvid.png">
+        </a>
+      </div>
+    </div>
 
     <section class="grid">
       <section id="nyhavn">

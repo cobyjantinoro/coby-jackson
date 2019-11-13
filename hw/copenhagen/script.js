@@ -52,6 +52,16 @@ $(document).ready(function() {
     }
   })
 
+  $('.video-deck .card-body').on('click', function() {
+    $(this).parent().find("a").trigger('click');
+  });
+
+  $('.video-deck a').fancybox({
+    caption: function(instance, item) {
+      return $(this).parent().find('.card-text').html();
+    }
+  });
+
 
   var i;
   var learn = ["https://www.visitcopenhagen.com"]
