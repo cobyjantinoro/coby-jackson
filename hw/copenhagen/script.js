@@ -31,8 +31,11 @@ $(document).ready(function() {
   })
 
   $("#button6").click(function() {
-    $("#text6").slideToggle(500)
+    $("#text6").toggle(500)
+  })
 
+  $("#learnButton").click(function() {
+    $("#text7").toggle(500)
   })
 
   $("#visible").hide()
@@ -63,12 +66,12 @@ $(document).ready(function() {
   });
 
 
-  var i;
-  var learn = ["https://www.visitcopenhagen.com"]
+  // var i;
+  // var learn = ["https://www.visitcopenhagen.com"]
 
-  $("#learnButton").click(function() {
-    for (i = 0; i < learn.length; i++) {
-      $("#more").append(learn[i] + "<br>")
-    }
-  })
+  // $("#learnButton").click(function() {
+  //   for (i = 0; i < learn.length; i++) {
+  //     $("#more").append(learn[i] + "<br>")
+  //   }
+  // })
 })
