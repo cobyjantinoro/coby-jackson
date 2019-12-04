@@ -1,126 +1,130 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Work+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab|Work+Sans&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: none;
   list-style: none;
   text-decoration: none;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
-p{
+p {
   margin-bottom: 15px;
   font-size: 14px;
   line-height: 20px;
-  color: #EC7063;
+  color: #ec7063;
 }
 
-h1.title{
+h1.title {
   margin-bottom: 20px;
   color: #444444;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   text-transform: uppercase;
   font-size: 38px;
   word-spacing: 25px;
   letter-spacing: 5px;
 }
 
-.btn a{
+.btn a {
   display: block;
   width: 180px;
   height: 35px;
-  border: 2px solid #EC7063;
+  border: 2px solid #ec7063;
   line-height: 35px;
   margin: 25px auto;
-  color: #EC7063;
+  color: #ec7063;
   text-align: center;
 }
 
-.main_container{
+.main_container {
   position: relative;
 }
 
+.logo {
+  text-align: center;
+}
+
 /*Navigation Bar */
-.navbar{
+.navbar {
   width: 100%;
   height: 65px;
-  display: flex;
+  display: grid;
   justify-content: space-around;
   align-items: center;
   position: absolute;
 }
 
-.logo a{
-  font-family: 'Work Sans', sans-serif;
+.logo a {
+  font-family: "Work Sans", sans-serif;
   font-size: 32px;
-  color: #0A0A0A;
+  color: #0a0a0a;
 }
 
-.navbar .navbar_items ul{
+.navbar .navbar_items ul {
   display: flex;
 }
 
-.navbar .navbar_items ul li{
+.navbar .navbar_items ul li {
   text-transform: uppercase;
   margin: 0 10px;
 }
 
-.navbar .navbar_items ul li a{
-  color: #0A0A0A;
+.navbar .navbar_items ul li a {
+  color: #0a0a0a;
 }
 
 /*Banner Image*/
-.banner_image{
+.banner_image {
   background-image: url("images/rookies.jpg");
-  background-color: #EC7063;
+  background-color: #ec7063;
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
   width: 100%;
   height: 600px;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
 }
 
-.banner_content{
+.banner_content {
   text-align: center;
-  color: #0A0A0A;
+  color: #0a0a0a;
 }
 
-.banner_content h1{
+.banner_content h1 {
   text-transform: uppercase;
   line-height: 38px;
   margin-bottom: 15px;
 }
 
-.banner_content h1 span{
-  color: #EC7063;
+.banner_content h1 span {
+  color: #ec7063;
 }
 
 /* about, athletes,futures, and sections */
 .about,
 .athletes,
 .futures,
-.content{
+.content {
   padding: 5% 10%;
   text-align: center;
 }
 
 /* Players Section */
-.athletes{
+.athletes {
   background: #f5f5f5;
 }
 
-.diff_athletes{
+.diff_athletes {
   display: inline-grid;
   margin-top: 35px;
   justify-content: space-between;
 }
 
-.diff_athlete_item{
+.diff_athlete_item {
   width: 30%;
 }
 
@@ -129,22 +133,22 @@ h1.title{
   margin-bottom: 25px;
 }
 
-.diff_athlete_item h3{
+.diff_athlete_item h3 {
   margin-bottom: 15px;
 }
 
 /*Futures Section*/
-.futures{
+.futures {
   background: #f5f5f5;
 }
 
-.diff_futures{
-  display:flex;
+.diff_futures {
+  display: grid;
   margin-top: 35px;
   justify-content: space-between;
 }
 
-.diff_future_item{
+.diff_future_item {
   width: 30%;
 }
 
@@ -153,16 +157,16 @@ h1.title{
   margin-bottom: 25px;
 }
 
-.diff_future_item h3{
+.diff_future_item h3 {
   margin-bottom: 15px;
 }
 
 /*Content Section*/
-.content{
+.content {
   background: #f5f5f5;
 }
 
-.content_wrapper .video{
+.content_wrapper .video {
   display: flex;
   justify-content: space-between;
 }
@@ -171,7 +175,7 @@ h1.title{
   margin-bottom: 25px;
 }
 
-.content_wrapper .video_clip{
+.content_wrapper .video_clip {
   width: 30%;
   height: auto;
   cursor: pointer;
@@ -179,50 +183,50 @@ h1.title{
   transition: all 0.5s ease;
 }
 
-.content_wrapper .video_clip iframe{
+.content_wrapper .video_clip iframe {
   width: 100%;
   display: block;
   height: auto;
 }
 
 /*Footer Section*/
-.footer{
+.footer {
   width: 100%;
   text-align: center;
   background: #444444;
   padding: 20px 0;
 }
 
-.footer a{
+.footer a {
   color: #fff;
 }
 
 @media (max-width: 720px) {
-  .navbar{
+  .navbar {
     height: auto;
     flex-direction: column;
   }
 
-  .navbar ul{
+  .navbar ul {
     flex-direction: column;
     text-align: center;
   }
 
-  .logo{
+  .logo {
     margin-bottom: 25px;
   }
 
-  .navbar ul li{
+  .navbar ul li {
     margin-bottom: 5px;
   }
 
-  .banner_content{
+  .banner_content {
     margin-top: 35px;
   }
 }
 
 /*Arrow button */
-.arrow{
+.arrow {
   position: fixed;
   bottom: 25px;
   right: 25px;
@@ -235,7 +239,7 @@ h1.title{
   border-radius: 50%;
 }
 
-.arrow img{
+.arrow img {
   width: 20px;
   height: 20px;
   z-index: 1;
